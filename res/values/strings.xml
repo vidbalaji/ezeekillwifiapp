@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ezee Disable Wifi</string>
+    <string name="helpstring">This app has 2 settings :
+Disable Wifi After - Set this value in minutes. Suppose you set 5 minutes an click \'Start Service\'.
+You can see that the Wifi will be disabled after 5 minutes.
+Dont enable Wifi for - Once the wifi is disabled by the above setting,if you do not want to start the wifi for sometime,then you can use this feature.
+Suppose,set this value as 7 minutes.After wifi gets disabled by the above settings say at time 10:00 AM, if you enable the wifi setting, the wifi will be disabled immediately.
+This will happen for 7 minutes till 10:07 AM. After that the wifi can be enabled.
+Set these 2 values and click \'Start Service\'. The service will be running till you click \'Stop Service\' on the same screen
+or goto Settings->App->\'Ezee Disable Wifi App-> Force Stop.
+</string>
+</resources>
